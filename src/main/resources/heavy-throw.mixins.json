@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.monkey.heavythrow.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "MaceItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "heavy-throw",
+	"version": "1.0.0-beta",
+	"name": "Heavy Throw",
+	"description": "重锤可以投掷出去，自动攻击周围生物",
+	"authors": ["Monkey"],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/heavy-throw/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.monkey.heavythrow.HeavyThrow"
+		],
+		"client": [
+			"com.monkey.heavythrow.HeavyThrowClient"
+		]
+	},
+	"custom": {
+		"fabric:data_pack": {
+			"enabled": true,
+			"name": "Heavy Throw Loot Modifier"
+		}
+	},
+	"mixins": [
+		"heavy-throw.mixins.json",
+		{
+			"config": "heavy-throw.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

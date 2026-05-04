@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 1,
+              "treasure": true,
+              "enchantments": [
+                "heavythrow:heavy_throw"
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.001
+        }
+      ]
+    }
+  ]
+}
