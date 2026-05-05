@@ -144,9 +144,7 @@ No configurable parameters in current version.
 
 ## 📄 License
 
-This project is licensed under the **CC0-1.0** License.
-
-> Anyone can freely use, modify, distribute, and commercialize without attribution.
+This project is licensed under the **MIT* License.
 
 ---
 
@@ -356,9 +354,7 @@ If you have questions or suggestions, feel free to provide feedback through:
 
 ## 📄 开源协议
 
-本项目采用 **CC0-1.0** 协议。
-
-> 任何人可随意使用、修改、分发、商用，无需注明原作者。
+本项目采用 **MIT* 协议。
 
 ---
 
